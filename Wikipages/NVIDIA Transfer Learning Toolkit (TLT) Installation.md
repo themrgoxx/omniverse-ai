@@ -136,7 +136,7 @@ At this point, a working setup can be tested by running a base CUDA container:
 
 ![image](https://user-images.githubusercontent.com/589439/143663347-4ec70e43-da4d-4b97-bd26-b336586bc9d7.png)
 
-## 4. Log in to the NGC docker registry:
+## 4. Login to the NGC docker registry:
 Use the command 
 
        docker login nvcr.io 
