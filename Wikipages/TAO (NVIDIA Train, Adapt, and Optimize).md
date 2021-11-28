@@ -67,15 +67,15 @@ and enter the following credentials:
 
 ![image](https://user-images.githubusercontent.com/589439/143723930-c9c8658f-339d-4693-894a-daf70dea28ae.png)
 
- - Run this command to create a virtualenv named "launcher".
+ - Run this command to create a virtualenv named "TAO".
 
-        mkvirtualenv launcher -p $VIRTUALENVWRAPPER_PYTHON
+        mkvirtualenv TAO -p $VIRTUALENVWRAPPER_PYTHON
 
-![image](https://user-images.githubusercontent.com/589439/143724110-61196b6e-7d6e-4fc5-86a4-c7234cd4d379.png)
+![image](https://user-images.githubusercontent.com/589439/143724459-afaf363f-dd92-494b-9707-5400f409d05a.png)
 
- - You should now see a (launcher) prepending your username in the CLI.
+ - You should now see a (TAO) prepending your username in the CLI.
 
-![image](https://user-images.githubusercontent.com/589439/143724128-692a9f83-0365-4f0f-9068-e8e6af9cac15.png)
+![image](https://user-images.githubusercontent.com/589439/143724476-77609fc2-e5a7-4773-94d9-799f2b78be6f.png)
 
 ## Intructions on how to activate/deactive the vitualenv.
 
@@ -87,9 +87,9 @@ and enter the following credentials:
 
  - You may re-instantiate this created virtualenv env using the workon command.
 
-        workon launcher
+        workon TAO
 
-![image](https://user-images.githubusercontent.com/589439/143724167-70721d41-12f2-4322-b611-3f07df92d344.png)
+![image](https://user-images.githubusercontent.com/589439/143724492-3036d310-3569-4820-9087-daca2bf9869f.png)
 
 ## 3. Once you have logged into the virtualenv, the command prompt should show the name of your virtual environment.
 
