@@ -1,4 +1,6 @@
+# Installing running detectnet_v2 in a jupyter notebook
 
+## Setup File Structures.
 
  - Run these commands to remove pre-made files.
 
