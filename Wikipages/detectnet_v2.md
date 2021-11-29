@@ -1,18 +1,22 @@
+# Installing running detectnet_v2 in a jupyter notebook
 
+## Setup File Structures.
 
- - Run these commands to remove pre-made files.
+ - Run these commands to create the correct file structure.
 
-        cd ~/cv_samples_v1.2.0/ 
+        cd ~
+
+        mkdir tao
+
+        mv cv_samples_v1.2.0/ tao
         
-        rm -r detectnet_v2/ 
+        cd tao/cv_samples_v1.2.0/
+        
+        rm -r detectnet_v2
 
-        mkdir detectnet_v2/
+![image](https://user-images.githubusercontent.com/589439/143797815-904b6033-f5db-43ac-a736-d653d4d19cfe.png)
 
-![image](https://user-images.githubusercontent.com/589439/143729065-f90e8ed0-07ac-4c77-8e4b-8d4c7fcffdef.png)
-
- - Navigate to Home -> cv_samples_v1.2.0 -> detectnet_v2
-
- ![image](https://user-images.githubusercontent.com/589439/143727464-598963b9-73c6-4b65-a617-5eecf454f4e9.png)
+![image](https://user-images.githubusercontent.com/589439/143797903-cd33e342-e45d-44ca-a8ac-6efb6d2cd18f.png)
 
  - Download the detectnet_v2.zip from this <a href="https://github.com/pantelis-classes/omniverse-ai/raw/main/detectnet_v2.zip">link</a>.
 
@@ -20,35 +24,33 @@
 
  - Run this command to move the .zip from your downloads folder to your detectnet_v2 folder.
 
-        mv ~/Downloads/detectnet_v2.zip ~/cv_samples_v1.2.0/detectnet_v2
+        mv ~/Downloads/detectnet_v2.zip ~/tao/cv_samples_v1.2.0/
 
-![image](https://user-images.githubusercontent.com/589439/143727509-2313c55c-bc6d-4451-91f1-f4424fac580a.png)
+![image](https://user-images.githubusercontent.com/589439/143798005-a702ed00-5971-4ece-b60a-d05e14fa09b9.png)
 
  - Run this command to unzip the folder.
 
-        unzip ~/cv_samples_v1.2.0/detectnet_v2/detectnet_v2
+        unzip ~/tao/cv_samples_v1.2.0/detectnet_v2.zip -d detectnet_v2
 
-![image](https://user-images.githubusercontent.com/589439/143729162-ad6f82c6-643e-4ec0-a082-75842c237053.png)
+![image](https://user-images.githubusercontent.com/589439/143798404-ae066e4a-d573-4144-a1ec-b5410db9efb7.png)
 
-![image](https://user-images.githubusercontent.com/589439/143729154-00111bfe-534d-4403-bcab-92e3adf032ee.png)
+![image](https://user-images.githubusercontent.com/589439/143798434-9d14756d-2bdb-4f68-88cb-0e5610562034.png)
 
- - Run this command to copy your dataset to the TAO folder. (You generate this dataset in this <a href="https://github.com/pantelis-classes/omniverse-ai/wiki/Synthetic-Data-Generation-(Python-API)#offline-training-with-tlt">wiki page</a>.)
+ - Run this command to copy your dataset to the TAO folder. (You generated this dataset in this <a href="https://github.com/pantelis-classes/omniverse-ai/wiki/Synthetic-Data-Generation-(Python-API)#offline-training-with-tlt">wiki page</a>.)
 
-        cp -r ~/.local/share/ov/pkg/isaac_sim-2021.2.0/output/testing/ ~/cv_samples_v1.2.0/detectnet_v2/workspace/tao-experiment/data/
+        cp -r ~/.local/share/ov/pkg/isaac_sim-2021.2.0/output/testing/ ~/tao/cv_samples_v1.2.0/detectnet_v2/workspace/tao-experiment/data/
 
-        cp -r ~/.local/share/ov/pkg/isaac_sim-2021.2.0/output/training/ ~/cv_samples_v1.2.0/detectnet_v2/workspace/tao-experiment/data/
+        cp -r ~/.local/share/ov/pkg/isaac_sim-2021.2.0/output/training/ ~/tao/cv_samples_v1.2.0/detectnet_v2/workspace/tao-experiment/data/
 
-![image](https://user-images.githubusercontent.com/589439/143730111-33db8027-2c8e-41e8-98a6-9e5e45984fc5.png)
+![image](https://user-images.githubusercontent.com/589439/143798514-be064b8e-18e9-4f21-97b2-ef72820190a8.png)
 
-![image](https://user-images.githubusercontent.com/589439/143730115-59cf1d93-b27b-4902-a39b-522551733281.png)
+![image](https://user-images.githubusercontent.com/589439/143798539-d7555c9c-87c3-4037-819a-ee32aca9fa44.png)
 
  - Navigate to Home -> cv_samples_v1.2.0 -> detectnet_v2
 
  - Open the detectnet_v2.ipynb file.
 
 ![image](https://user-images.githubusercontent.com/589439/143729232-16e479b2-527e-4b0f-94b0-e43bd08cfba8.png)
-
-![image](https://user-images.githubusercontent.com/589439/143729376-8e7db409-6651-4a55-90a7-8750d77d5838x.png)
 
  - Scroll down to section "0. Set up env variables and map drives" (Ctrl + F)
 
@@ -59,7 +61,3 @@
  ![image](https://user-images.githubusercontent.com/589439/143729441-e43fde75-76ed-489d-acef-56fea5ddf539.png)
 
  ![image](https://user-images.githubusercontent.com/589439/143729521-c7b0fc38-baf0-4701-9032-dba324497f5e.png)
-
- - Please watch this video to gain an understanding of the notebook.
-
- # VIDEO

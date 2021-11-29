@@ -67,6 +67,10 @@ and enter the following credentials:
 
 ![image](https://user-images.githubusercontent.com/589439/143723930-c9c8658f-339d-4693-894a-daf70dea28ae.png)
 
+ - Run this command.
+
+        source `which virtualenvwrapper.sh`
+
  - Run this command to create a virtualenv named "TAO".
 
         mkvirtualenv TAO -p $VIRTUALENVWRAPPER_PYTHON
@@ -91,15 +95,41 @@ and enter the following credentials:
 
 ![image](https://user-images.githubusercontent.com/589439/143724492-3036d310-3569-4820-9087-daca2bf9869f.png)
 
-## 3. Once you have logged into the virtualenv, the command prompt should show the name of your virtual environment.
+## 3. Download Jupyter Notebook.
 
+ - TAO Toolkit provides samples notebooks to walk through and prescrible TAO workflow. These samples are hosted on NGC as a resource and can be downloaded from NGC by executing the command mentioned below.
 
+ - Run these commands to set up your notebook.
 
+        workon TAO
 
+![image](https://user-images.githubusercontent.com/589439/143725152-cbbd609d-6d94-452c-8a48-a2bcf66dc4ab.png)
 
+ - Copy the command belown and keep pressing enter until you are in ~/cv_samples_v1.2.0.
 
+        wget --content-disposition https://api.ngc.nvidia.com/v2/resources/nvidia/tao/cv_samples/versions/v1.2.0/zip -O cv_samples_v1.2.0.zip
+        unzip -u cv_samples_v1.2.0.zip  -d ./cv_samples_v1.2.0 && rm -rf cv_samples_v1.2.0.zip && cd ./cv_samples_v1.2.0
 
+![image](https://user-images.githubusercontent.com/589439/143725176-02cc805c-4a98-4afe-9d49-ff17b48e171c.png)
+![image](https://user-images.githubusercontent.com/589439/143725173-3c7d7cf0-c3b7-487a-9ed9-818aa5615e84.png)
+![image](https://user-images.githubusercontent.com/589439/143725183-3d1caa61-125e-43fe-be67-683429c272ab.png)
 
+## 4. Start Jupyter Notebook
 
+ - Once the notebook samples are downloaded, you may start the notebook using the below commands:
 
- Set the Python version in the virtualenv.
+        jupyter notebook --ip 0.0.0.0 --port 8888 --allow-root
+
+![image](https://user-images.githubusercontent.com/589439/143725216-d67fe159-5f1f-47b1-8dbe-5c14a4e6a7aa.png)
+
+ - Open an internet browser on localhost and navigate to the following URL:
+
+        http://0.0.0.0:8888
+
+![image](https://user-images.githubusercontent.com/589439/143725228-4696d70e-ec0b-485c-985b-3bffb83be6ac.png)
+
+ - Navigate to ./detectnet_v2/detectnet_v2.ipynb
+
+![image](https://user-images.githubusercontent.com/589439/143725266-806cf049-c46f-4e22-9940-ac4e9d952117.png)
+![image](https://user-images.githubusercontent.com/589439/143725290-0778740c-3b39-45b4-8d83-a254f545844c.png)
+![image](https://user-images.githubusercontent.com/589439/143725306-14110acd-9a61-460a-be5d-df45a55c5b65.png)
