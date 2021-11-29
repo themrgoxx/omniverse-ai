@@ -14,7 +14,8 @@ https://github.com/pantelis-classes/omniverse-ai/wiki
 * [Synthetic-Data-Generation][SDG]
 * [NVIDIA Transfer Learning Toolkit (TLT) Installation][TLT]
 * [NVIDIA TAO][TAO]
-* [detectnet_v2][detectnet_v2]
+* [detectnet_v2 Installation][detectnet_v2]
+* [Jupyter Notebook][Jupyter-Notebook]
 
 [home]: https://github.com/pantelis-classes/omniverse-ai/wiki
 [Omniverse]: https://github.com/pantelis-classes/omniverse-ai/wiki/Isaac-Sim-SDK-Omniverse-Installation
@@ -22,17 +23,18 @@ https://github.com/pantelis-classes/omniverse-ai/wiki
 [TLT]: https://github.com/pantelis-classes/omniverse-ai/wiki/NVIDIA-Transfer-Learning-Toolkit-(TLT)-Installation
 [NTLTSD]: https://github.com/pantelis-classes/omniverse-ai/wiki/Using-NVIDIA-TLT-with-Synthetic-Data
 [TAO]: https://github.com/pantelis-classes/omniverse-ai/wiki/TAO-(NVIDIA-Train,-Adapt,-and-Optimize)
-[detectnet_v2]: https://github.com/pantelis-classes/omniverse-ai/wiki/detectnet_v2
+[detectnet_v2]: https://github.com/pantelis-classes/omniverse-ai/wiki/detectnet_v2-Installation
+[Jupyter-Notebook]: https://github.com/pantelis-classes/omniverse-ai/wiki/Jupyter-Notebook
 
 <hr />
 
 ## Authors
 
-<a href="https://github.com/dfsanchez999%22%3EDiego Sanchez">Diego Sanchez</a> | <a href="https://harp.njit.edu/~jga26/%22%3EJibran Absarulislam">Jibran Absarulislam</a> | <a href="https://github.com/markkcruz%22%3EMark Cruz">Mark Cruz</a> | <a href="https://github.com/sppatel2112%22%3ESapan Patel">Sapan Patel</a>
+<a href="https://github.com/dfsanchez999">Diego Sanchez</a> |  <a href="https://harp.njit.edu/~jga26/">Jibran Absarulislam</a> | <a href="https://github.com/markkcruz">Mark Cruz</a> | <a href="https://github.com/sppatel2112">Sapan Patel</a>
 
 ## Supervisor
 
-<a href="https://pantelis.github.io/%22%3EDr. Pantelis Monogioudis">Dr. Pantelis Monogioudis</a>
+<a href="https://pantelis.github.io/">Dr. Pantelis Monogioudis</a>
 
 ## Reports
 <a href="https://docs.google.com/document/d/1jVXxrNgtOosZw_vAORzomSnmy45G3qK_mmk2B4oJtPg/edit?usp=sharing">Domain Randomization Paper</a><br>
@@ -43,5 +45,5 @@ This final report contains an indepth explanation on the hardware/software used,
 
 ## Credits
 
-<a href="https://developer.nvidia.com/nvidia-omniverse-platform%22%3ENVIDIA Omniverse">Omniverse</a><br>
+<a href="https://developer.nvidia.com/nvidia-omniverse-platform">NVIDIA Omniverse</a><br>
 A platform that enables universal interoperability across different applications and 3D ecosystem vendors providing real-time scene updates.
