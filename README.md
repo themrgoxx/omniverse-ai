@@ -32,7 +32,7 @@ https://github.com/pantelis-classes/omniverse-ai/wiki
 
 ## Supervisor
 
-<a href="https://pantelis.github.io/%22%3EDr. Pantelis Monogioudis">Dr.Pantelis Monogioudis</a>
+<a href="https://pantelis.github.io/%22%3EDr. Pantelis Monogioudis">Dr. Pantelis Monogioudis</a>
 
 ## Reports
 <a href="https://docs.google.com/document/d/1jVXxrNgtOosZw_vAORzomSnmy45G3qK_mmk2B4oJtPg/edit?usp=sharing">Domain Randomization Paper</a><br>
