@@ -1,0 +1,21 @@
+Mean average_precision (in %): 36.4505
+Mean average_precision (in %): 37.8291
+Mean average_precision (in %): 41.1985
+Mean average_precision (in %): 42.1866
+Mean average_precision (in %): 42.9321
+Mean average_precision (in %): 41.9975
+Mean average_precision (in %): 42.7476
+Mean average_precision (in %): 43.6383
+Mean average_precision (in %): 44.4334
+Mean average_precision (in %): 44.0731
+
+Validation cost: 0.000473
+Validation cost: 0.000472
+Validation cost: 0.000408
+Validation cost: 0.000382
+Validation cost: 0.000378
+Validation cost: 0.000372
+Validation cost: 0.000327
+Validation cost: 0.000299
+Validation cost: 0.000288
+Validation cost: 0.000285
